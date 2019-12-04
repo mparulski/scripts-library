@@ -1,11 +1,5 @@
-import {curry} from 'ramda'
-
-const isLiteralObject = (obj) => (Object.prototype.toString.call(obj) === '[object Object]')
+import curry from 'ramda.curry'
 
 export default curry((casesDefinition, defaultCase, caseKey) => {
-  if (isLiteralObject(casesDefinition) && Object.prototype.hasOwnProperty.call(casesDefinition, caseKey)) {
-    return casesDefinition[caseKey]
-  }
-
-  return defaultCase
+  return Object.prototype.hasOwnProperty.call(Object.assign({}, casesDefinition), caseKey) ? casesDefinition[caseKey] : defaultCase
 })
