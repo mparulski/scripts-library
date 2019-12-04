@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "build": "babel -w src/ -d ."
+    "build": "babel -w src/ -d ./dist"
   },
   "repository": {
     "type": "git",
