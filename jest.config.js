@@ -2,7 +2,7 @@ const {defaults} = require('jest-config')
 
 module.exports = {
   browser: true,
-  collectCoverage: true,
+  collectCoverage: false,
   moduleFileExtensions: ['js', 'json', 'jsx', 'node'],
   notify: true,
   testMatch: [

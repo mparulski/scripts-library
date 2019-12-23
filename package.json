@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/mparulski/scripts-library#readme",
   "dependencies": {
-    "ramda.curry": "0.26.1"
+    "@ramda/cond": "0.26.1",
+    "@ramda/curry": "0.26.1",
+    "@ramda/t": "0.26.1"
   },
   "devDependencies": {
     "@babel/cli": "7.7.4",
