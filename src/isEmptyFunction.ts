@@ -4,7 +4,7 @@ const fns = [
   (function*(){}).toString()
 ]
 
-export default (func) => {
+export default (func: Function) => {
   const sanitized = func.toString()
     .replace(/(\/\*[^*]*\*\/)|(\/\/[^*]*)/g, '')
     .replace(/\s/g,'')
