@@ -16,9 +16,7 @@
     "url": "https://github.com/mparulski/scripts-library/issues"
   },
   "homepage": "https://github.com/mparulski/scripts-library#readme",
-  "dependencies": {
-    "@ramda/curry": "0.26.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "7.15.7",
     "@babel/core": "7.15.5",
@@ -29,12 +27,10 @@
     "@mparulski/es-project-eslint": "0.1.0",
     "@mparulski/es-project-maker": "0.19.3",
     "@mparulski/es-project-maker-webpack": "0.8.0",
-    "@types/ramda": "0.27.45",
     "babel-loader": "8.2.2",
     "eslint": "7.32.0",
     "prettier": "2.4.1",
     "resolve-url-loader": "4.0.0",
-    "sass-loader": "12.1.0",
     "ts-loader": "9.2.6",
     "typescript": "4.4.3",
     "webpack": "5.56.1",
