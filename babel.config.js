@@ -1,13 +1,17 @@
 module.exports = {
-  presets: [
+  "presets": [
     [
-      '@babel/preset-env',
+      "@babel/preset-env",
       {
-        targets: {
-          node: 'current'
+        "modules": false,
+        "targets": {
+          "browsers": "cover 99.5%, last 3 versions, not ie 11"
         }
       }
     ]
   ],
-  plugins: ['@babel/plugin-transform-arrow-functions']
+  "plugins": [
+    "@babel/plugin-proposal-throw-expressions",
+    "@babel/plugin-transform-arrow-functions"
+  ]
 }

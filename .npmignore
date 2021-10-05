@@ -1,4 +1,6 @@
 .git/
+__config/
+__docs/
 __tests__/
 coverage/
 node_modules/

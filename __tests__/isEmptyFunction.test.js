@@ -18,6 +18,18 @@ describe('Empty functions test cases', () => {
 
     expect(isEmptyFunction(testFn)).toBeTruthy()
   })
+
+  test('Should return true if it is empty async function', () => {
+    const testFn = async function () {}
+
+    expect(isEmptyFunction(testFn)).toBeTruthy()
+  })
+
+  test('Should return true if it is empty async arrow function', () => {
+    const testFn = async () => {}
+
+    expect(isEmptyFunction(testFn)).toBeTruthy()
+  })
 })
 
 describe('Empty functions with comments in body test cases', () => {
