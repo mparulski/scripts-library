@@ -2,7 +2,8 @@
   "name": "@mparulski/scripts-library",
   "version": "0.3.0",
   "description": "",
-  "main": "dist/getCase",
+  "main": "dist/getCase.js",
+  "types": "dist/types/getCase.d.ts",
   "scripts": {
     "build": "webpack --config=webpack.prod.config.js"
   },
