@@ -9,6 +9,7 @@ module.exports = env => {
     output: {
       path: path.resolve(__dirname, '../dist'),
       filename: '[name].js',
+      clean: true,
     },
   }
 }
