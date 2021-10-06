@@ -1,6 +1,6 @@
 {
   "name": "@mparulski/scripts-library",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/getCase.js",
   "types": "dist/types/getCase.d.ts",
